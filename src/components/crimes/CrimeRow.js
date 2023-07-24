@@ -9,7 +9,7 @@ export const CrimeRow = ( { delito }) => {
                 <td>{delito.descripcion}</td>
                 <td>
                     <button
-                        className="btn btn-outline-primary"
+                        className="btn btn-outline-primary mx-2"
                         title="Editar"
                     >
                         <i className="fa fa-edit"></i>
